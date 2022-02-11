@@ -23,10 +23,11 @@
     "@po-ui/ng-templates": "^6.3.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "ngx-build-plus": "^13.0.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.2.3",
+
     "@angular/cli": "~13.2.3",
     "@angular/compiler-cli": "~13.2.2",
     "@types/jasmine": "~3.10.0",
