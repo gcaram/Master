@@ -3,7 +3,7 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
-const URLGlb = 'http://localhost:3001/remoteEntry.js';
+const URLGlb = 'https://icy-rock-015a79e10.1.azurestaticapps.net/remoteEntry.js';
 const URLEdu = 'http://localhost:3002/remoteEntry.js';
 
 export const APP_ROUTES: Routes = [
