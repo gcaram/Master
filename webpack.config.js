@@ -44,7 +44,7 @@ module.exports = {
         library: { type: "module" },
 
          remotes: {
-             "globais": "http://localhost:3001/remoteEntry.js"/*,
+             "globais": "https://icy-rock-015a79e10.1.azurestaticapps.net/remoteEntry.js"/*,
              "mc2": "http://localhost:3002/remoteEntry.js",*/
         },
 
@@ -61,3 +61,4 @@ module.exports = {
     sharedMappings.getPlugin()
   ],
 };
+
