@@ -44,8 +44,8 @@ module.exports = {
         library: { type: "module" },
 
          remotes: {
-             "globais": "https://icy-rock-015a79e10.1.azurestaticapps.net/remoteEntry.js"/*,
-             "mc2": "http://localhost:3002/remoteEntry.js",*/
+             "globais": "https://icy-rock-015a79e10.1.azurestaticapps.net/remoteEntry.js",
+             "educacional": "https://proud-river-070d7d110.1.azurestaticapps.net/remoteEntry.js",
         },
 
         shared: share({
