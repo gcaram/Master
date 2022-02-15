@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { PoMenuItem } from '@po-ui/ng-components';
 
 @Component({
@@ -6,7 +6,7 @@ import { PoMenuItem } from '@po-ui/ng-components';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, OnDestroy {
   constructor() {}
 
   public title: string = 'MULTIREPO Component';
@@ -17,6 +17,10 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.LoadMenus();
+  }
+
+  ngOnDestroy(): void {
+    console.log('MASTER App Method not implemented.');
   }
 
   public LoadMenus() {

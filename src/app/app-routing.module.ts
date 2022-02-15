@@ -3,11 +3,12 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
-const URLGlb = 'https://icy-rock-015a79e10.1.azurestaticapps.net/remoteEntry.js';
-const URLEdu = 'https://proud-river-070d7d110.1.azurestaticapps.net/remoteEntry.js';
+const URLGlb = 'https://icy-rock-015a79e10.1.azurestaticapps.net/globais.js';
+const URLEdu = 'https://proud-river-070d7d110.1.azurestaticapps.net/educacional.js';
 
 export const APP_ROUTES: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'home', component: HomeComponent, pathMatch: 'full' },
   {
     path: 'globais',
     loadChildren: () =>
